@@ -5,7 +5,7 @@ import notSoHeaderComponent from './components/notSoHeaderComponent.vue'
 </script>
 
 <template>
-  <div id="pagina" class="contenedor">
+ <div id="pagina" class="contenedor">
     
 
     <notSoHeaderComponent />
