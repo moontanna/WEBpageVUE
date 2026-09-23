@@ -1,3 +1,4 @@
+<script setup lang="ts"></script>
 <template>
 	<header>
 		<h1>¿Framework con vite?</h1>

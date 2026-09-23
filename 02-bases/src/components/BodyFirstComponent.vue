@@ -1,3 +1,24 @@
+<script setup lang="ts">
+const comandosVue = [
+	{
+		nombre: 'npm install -g @vue/cli',
+		paraQueSirve: 'instala Vue CLI de forma global para crear y administrar proyectos Vue.',
+	},
+	{
+		nombre: 'vue create "nombre-del-proyecto"',
+		paraQueSirve: 'crea un nuevo proyecto de Vue con el nombre indicado.',
+	},
+	{
+		nombre: 'npm install',
+		paraQueSirve: 'instala las dependencias definidas en package.json.',
+	},
+	{
+		nombre: 'npm run dev',
+		paraQueSirve: 'inicia el servidor de desarrollo para ejecutar la aplicación localmente.',
+	},
+]
+</script>
+
 <template>
 	<section>
 	
@@ -49,24 +70,3 @@ p,
 	color: #664182;
 }
 </style>
-
-<script setup>
-const comandosVue = [
-	{
-		nombre: 'npm install -g @vue/cli',
-		paraQueSirve: 'instala Vue CLI de forma global para crear y administrar proyectos Vue.',
-	},
-	{
-		nombre: 'vue create "nombre-del-proyecto"',
-		paraQueSirve: 'crea un nuevo proyecto de Vue con el nombre indicado.',
-	},
-	{
-		nombre: 'npm install',
-		paraQueSirve: 'instala las dependencias definidas en package.json.',
-	},
-	{
-		nombre: 'npm run dev',
-		paraQueSirve: 'inicia el servidor de desarrollo para ejecutar la aplicación localmente.',
-	},
-]
-</script>
